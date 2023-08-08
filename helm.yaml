@@ -1,0 +1,6 @@
+build:
+  uri: [URL TO YOUR GIT REPOSITORY]
+deploy:
+  envFrom:
+	- secretRef:
+    	  name: oidc-secret
